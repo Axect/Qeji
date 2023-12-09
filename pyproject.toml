@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Qeji"
+version = "0.0.1"
+description = ""
+dependencies = [
+    "pennylane",
+    "setuptools",
+    "numpy ==1.26.2",
+    "matplotlib ==3.8.2",
+    "notebook ==7.0.6",
+]
